@@ -1,0 +1,12 @@
+{
+    "fever": {"risk": "LOW"},
+    "cough": {"risk": "LOW"},
+    "chest pain": {"risk": "HIGH"},
+    "breathlessness": {"risk": "HIGH"},
+    "dizziness": {"risk": "MEDIUM"}
+}
+
+
+
+
+

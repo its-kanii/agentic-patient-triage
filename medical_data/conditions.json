@@ -1,0 +1,10 @@
+{
+    "heart patient": {"high_risk": true},
+    "asthma": {"high_risk": true},
+    "diabetes": {"high_risk": false}
+}
+
+
+
+
+
