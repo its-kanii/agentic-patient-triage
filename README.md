@@ -1,5 +1,13 @@
 # Agentic Patient Triage System
 
+[![Streamlit](https://img.shields.io/badge/Streamlit-Live-brightgreen)](https://agentic-patient-triage.streamlit.app/)
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![License](https://img.shields.io/badge/License-MIT-orange)
+
+## Live Demo
+
+Access the live app here: [Open Live App](https://agentic-patient-triage.streamlit.app/)
+
 ## Project Overview
 
 The Agentic Patient Triage System is an intelligent clinical decision support system designed to assist hospitals in managing patient intake, triage, and routing efficiently. It leverages agent-based automation to assess patient severity, assign appropriate departments, and provide summaries for doctors, improving decision-making speed and accuracy.
@@ -26,42 +34,11 @@ The system automates patient intake and triage using agent-based intelligence:
 
 This workflow ensures that patients are prioritized correctly, departments are informed about patient load, and doctors have immediate access to relevant information.
 
-## Live Demo
-You can access the deployed application here:  
-[Open Live App](https://agentic-patient-triage.streamlit.app/)
+## System Workflow
 
-## How It Works – Step by Step
-
-1. **Patient Entry**
-
-   * A patient arrives and their details (name, age, symptoms, known conditions) are entered into the system.
-
-2. **Intake Agent Processing**
-
-   * The Intake Agent captures the patient’s data and publishes it to the Event Bus for processing.
-
-3. **Triage Agent Evaluation**
-
-   * The Triage Agent analyzes symptoms and conditions to classify the patient as emergency or general.
-   * Severity is determined based on clinical rules.
-
-4. **Routing Agent Assignment**
-
-   * Patients are assigned to the appropriate department (e.g., Cardiology, Neurology, General) depending on symptoms and conditions.
-
-5. **Summary Agent Report**
-
-   * Generates a structured summary for doctors including:
-
-     * Patient name and age
-     * Assigned department
-     * Severity (Emergency / Non-emergency)
-     * Symptoms and known conditions
-
-6. **Dashboard and History Tracking**
-
-   * The system maintains a department-wise patient history.
-   * The dashboard displays real-time metrics including total patients, emergency cases, and department load.
+```
+Patient Entry → Intake Agent → Triage Agent → Routing Agent → Summary Agent → Dashboard / History
+```
 
 ## Key Features
 
@@ -71,12 +48,23 @@ You can access the deployed application here:
 * Dashboard: Provides real-time metrics on total patients, emergency load, and department-specific statistics.
 * Seamless interface: Clean UI for easy navigation between patient entry, history, and dashboard.
 
+## Screenshots
+
+**Patient Entry Screen**
+![Patient Entry](assets/patient_entry.png)
+
+**Department-wise History**
+![History](assets/history.png)
+
+**Dashboard View**
+![Dashboard](assets/dashboard.png)
+
 ## How to Run
 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/its-kanii/agentic-patient-triage.git
+git clone https://github.com/yourusername/agentic-patient-triage.git
 ```
 
 2. Navigate to the project directory:
@@ -85,7 +73,7 @@ git clone https://github.com/its-kanii/agentic-patient-triage.git
 cd agentic-patient-triage
 ```
 
-3. Install dependencies (e.g., Streamlit):
+3. Install dependencies (Streamlit and other required packages):
 
 ```bash
 pip install streamlit
@@ -125,3 +113,4 @@ agentic-patient-triage/
 │
 └─ .gitignore                # Files/folders to ignore in Git (e.g., __pycache__, .env)
 ```
+
