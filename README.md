@@ -26,6 +26,10 @@ The system automates patient intake and triage using agent-based intelligence:
 
 This workflow ensures that patients are prioritized correctly, departments are informed about patient load, and doctors have immediate access to relevant information.
 
+## Live Demo
+You can access the deployed application here:  
+[Open Live App](https://agentic-patient-triage.streamlit.app/)
+
 ## How It Works – Step by Step
 
 1. **Patient Entry**
