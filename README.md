@@ -64,7 +64,7 @@ Patient Entry → Intake Agent → Triage Agent → Routing Agent → Summary Ag
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/agentic-patient-triage.git
+git clone https://github.com/its-kanii/agentic-patient-triage.git
 ```
 
 2. Navigate to the project directory:
